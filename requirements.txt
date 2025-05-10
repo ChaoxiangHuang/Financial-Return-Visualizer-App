@@ -1,5 +1,7 @@
-streamlit
-numpy
+streamlit>=1.20.0
 pandas
+numpy
 scipy
 plotly
+sqlalchemy
+psycopg2-binary   # only needed if you connect to PostgreSQL
